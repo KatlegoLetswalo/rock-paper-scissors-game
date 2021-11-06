@@ -1,0 +1,124 @@
+/*GAME*/
+
+.App {
+	height: 100vh;
+	font-family: sans-serif;
+}
+
+body {
+	width: 100%;
+	margin: 1rem auto;
+	display: flex;
+	justify-content: space-evenly;
+	box-sizing: border-box;
+}
+
+.header {
+	padding-top: 50px;
+	font-size: 55px;
+	position: relative;
+	line-height: 65px;
+	color: #555;
+}
+
+.player {
+	width: 240px;
+	height: 180px;
+	margin: 50px;
+	border-radius: 50%;
+	text-align: center;
+	display: inline-block;
+}
+
+.weaponBtn {
+	width: 100px;
+	height: 50px;
+	display: inline;
+	align-items: inherit;
+	margin: auto 15px;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 25px;
+	background: #000;
+}
+
+.player:nth-child(2) {
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+
+.winner {
+	width: 100px;
+	height: 55px;
+	margin: 10px auto;
+	color: brown;
+	font-size: 18px;
+	text-align: center;
+	font-weight: bold;
+}
+
+/*
+.player-image {
+	height: 200px;
+	width: auto;
+}
+
+*/
+
+.restartBtn {
+	width: 200px;
+	height: 50px;
+	display: block;
+	margin: 10px auto;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 25px;
+	background: #000;
+	outline: none;
+}
+
+.weaponBtn:hover,
+.restartBtn:hover {
+	cursor: pointer;
+	background-color: palevioletred;
+}
+
+.heading {
+	font-size: 50px;
+}
+
+.score {
+	height: 20vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.choice {
+	height: 25vh;
+	display: flex;
+	justify-content: center;
+}
+
+/*
+.computer-hand {
+	width: 250px;
+	transform: rotateY(180deg);
+}
+
+.user-hand {
+	width: 250px;
+}
+
+
+
+*/
+
+.button-div {
+	padding-top: 50px;
+}
+
+.result {
+	padding-top: 70px;
+	padding-bottom: 50px;
+}
